@@ -64,7 +64,7 @@ color: var(--primary);
     outline: none;
     width: 250px;
 }
-.search button{
+.search button,.newslatter a{
     border: none;
     background-color: var(--primary);
     padding: 8px 13px;
@@ -73,6 +73,24 @@ color: var(--primary);
 .search form{
     border: 3px solid #E7E6EF;
     border-radius: 5px;
+}
+
+/* newslatter */
+.newslatter{
+    background-image: url("img/newslater.webp");
+ padding: 175px 0;
+  
+    
+}
+.newslatter h2{
+    color: #151875;
+}
+
+.newslatter a{
+    transition: all 0.5s;
+}
+.newslatter a:hover{
+    background-color: #151875;
 }
 
 
@@ -127,7 +145,7 @@ width:calc((100% - 30px)/2);
    width:calc((100% - 30px)/2);  
 
 }
-.footer .left-side button{
+.footer .left-side button, .newslatter a{
     color: white;
 }
 
