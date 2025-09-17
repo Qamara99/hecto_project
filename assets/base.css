@@ -300,3 +300,7 @@ p {
   display: flex;
   flex-wrap: wrap;
 }
+
+.text-primary{
+    color: var(--primary);
+}
