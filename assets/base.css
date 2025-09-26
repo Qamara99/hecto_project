@@ -304,3 +304,6 @@ p {
 .text-primary{
     color: var(--primary);
 }
+.text-grey{
+    color: #8A8FB9;
+}
