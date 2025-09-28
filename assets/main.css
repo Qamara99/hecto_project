@@ -123,7 +123,7 @@ color: var(--primary);
 }
 @media screen and (max-width:1100px) {
   
-  .hero-image image,.hero-content{
+  .hero-image img,.hero-content{
     align-items: center;
   }
 }
@@ -445,6 +445,86 @@ display: flex;
     max-width: 100%;
 }
 }
+/* trending product */
+
+.trend-product{
+    background-color:#F2F0FF ;
+    padding: 50px 0;
+}
+
+.trend-product h1{
+    max-width: 320px;
+     color: #200e73;
+     font-weight: bold;
+     line-height: 35px;
+}
+
+.trend-image img{
+    
+    width: 400px;
+    height: 400px;
+}
+.trend-product ul{
+list-style-type: disc;
+}
+
+.trend-product ul li a{
+    color: #ACABC3;
+    font-size: 13px;
+}
+
+.trend-product ul .trend1::marker {
+  color:#F701A8;  
+  font-size: 30px; 
+}
+
+
+ .trend-product ul .trend2::marker {
+  color:#00009D; 
+  font-size: 30px; 
+}
+
+.trend-product ul .trend3::marker {
+  color:#05E6B7;   
+  font-size: 30px; 
+}
+
+.trend-content .link-cart{
+   color: white ;
+   width: fit-content;
+font-size: 13px;
+    border: none;
+    background-color: var(--primary);
+    padding: 8px 20px;
+    
+}
+.trend-content .cart-info span{
+    font-size: 12px;
+    color: #151875;
+}
+
+
+
+@media screen and (max-width:1100px) {
+  
+  .trend-product .trend-image img{
+   flex: 1 1 100%; 
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width:500px) {
+
+
+  .trend-image img{
+    align-items: center;
+    width: 400px;
+    height: 400px;
+  }
+}
+
+
+
 /* newslatter */
 .newslatter{
     background-image: url("img/newslater.webp");
