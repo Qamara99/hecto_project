@@ -191,12 +191,17 @@ background-color:#05E6B7 ;
 .color-three{
     background-color: #00009D;
 }
-.product-details,.product-details h3,.product-details .color-three,.product-info{
+.product-details,.product-details h3,.product-details .color-three,.product-info,.product .img{
     transition: all 0.6s;
 }
 .product:hover .product-details{
 background-color: #2F1AC4;
 border-radius: 2px;
+}
+
+.product:hover .img{
+background-color: #F7F7F7;
+
 }
 .product:hover  .product-details h3{
 color: white;
@@ -229,7 +234,48 @@ background-color: #FFEAC1;
 }
 }
 
+.product:hover .icon-buttons{
+display: flex;
+}
 
+.product .icon-buttons {
+    display: none;
+    top: 1;
+    left: 10;
+ position: absolute;
+  
+}
+.product .icon-btn {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%; /* يخليهم دائريين */
+  border: none;
+  background: none; /* خلفية فاتحة */
+  color: rgb(92, 157, 248); /* لون الأيقونة */
+  font-size: 12px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+   
+  
+}
+
+.product .icon-btn:hover {
+ color: #00009D;
+  background-color: #F6F3fb;
+
+}
+.product .img button{
+    background-color: #08D15F;
+    color: white;
+    font-size: 10px;
+    padding: 9px 13px;
+    display: none;
+      cursor: pointer;
+  transition: all 0.6s ease-in-out;
+}
+.product:hover .img button{
+display: block;
+}
 
 /* end of featured product */
 
@@ -294,7 +340,7 @@ background-color: #FFEAC1;
 background-color: white;
 
 }
-.icon-buttons {
+.productL .icon-buttons {
     display: none;
     padding-top: 160px;
     padding-left: 10px;
@@ -304,7 +350,7 @@ background-color: white;
 .productL:hover .icon-buttons{
 display: flex;
 }
-.icon-btn {
+.productL .icon-btn {
   width: 30px;
   height: 30px;
   border-radius: 50%; /* يخليهم دائريين */
@@ -318,7 +364,7 @@ display: flex;
   
 }
 
-.icon-btn:hover {
+.productL .icon-btn:hover {
   background-color: #F6F3fb;
 }
 
