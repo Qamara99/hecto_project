@@ -504,7 +504,14 @@ font-size: 13px;
 }
 
 
+.featured-product .product{
+    box-shadow: 4px 5px 4px #c1c1fc40;
+}
 
+.featured-product h1{
+font-size: 40px;
+font-weight: bolder;
+margin-bottom: 40px;}
 @media screen and (max-width:1100px) {
   
   .trend-product .trend-image img{
@@ -522,6 +529,130 @@ font-size: 13px;
     height: 400px;
   }
 }
+
+/* extra trend product */
+
+.product-details-trend h3{
+    color: #151875;
+}
+
+.text-price{
+    color: #151875;
+    font-weight: bold;
+}
+
+
+ .img-trend{
+    background-color:#F5F6F8 ;
+   
+    height: 250px;;
+   
+    padding: 30px;
+ 
+
+}
+.product-details-trend span{
+font-size: 12px;
+
+}
+
+
+/* ******* */
+
+
+
+ .product-discount {
+     position: relative;
+    margin-top: 40px;
+    /* flex-grow: 1; */
+      background-color: #FFF6FB; 
+    
+      padding: 34px 20px;
+      border-radius: 3px;
+      /* max-width: 0px; */
+      height: 250px;
+      width: 37%;
+    }
+
+    .discount-info {
+         position: absolute;
+        /* text-align: left; */
+      max-width: 60%;
+    }
+
+    .discount-info h2 {
+        
+      font-size: 20px;
+      color: #151875;
+      padding-bottom: 11px;
+    }
+
+    .discount-info a {
+      
+      font-weight: bold;
+      text-decoration: underline;
+    }
+
+    .product-discount .img1-margin {
+        max-width: 50%;
+      padding-top: 40px;
+      
+      margin-left: 200px;
+      
+    }
+
+        .product-discount .img-margin {
+         max-width: 280px;
+ margin-left: 60px;    
+ margin-top: 50px;  
+ 
+    }
+    .product-bg-color{
+background-color:  #f5f6ff;
+    }
+
+.chair-price-info span{
+    color: #151875;
+    font-size: 12px;
+    margin-right: 52px;
+}
+.chair-seat{
+    width: 23%;
+    margin-top: 40px;
+}
+.chair-seat .img-chair{
+    background-color: #F5F6F8;
+    padding:0 20px;
+}
+
+
+@media screen and (max-width:500px) {
+
+
+  .img-trend {
+   
+ align-items: center;
+  }
+}
+
+
+@media screen and (max-width:1300px) {
+
+
+  .img-trend .fit-img{
+   
+    width: 220px;
+    height: 220px;
+    max-width: 250px;
+  }
+}
+
+
+
+
+
+
+
 
 
 
