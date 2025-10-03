@@ -649,13 +649,6 @@ background-color:  #f5f6ff;
 
 
 
-
-
-
-
-
-
-
 /* newslatter */
 .newslatter{
     background-image: url("img/newslater.webp");
@@ -675,6 +668,124 @@ background-color:  #f5f6ff;
 }
 
 
+/* Top Categories */
+
+.Top-Categories{
+    padding: 50px 0;
+   
+}
+
+.Top-Categories h1,.Top-Categories .category-details{
+    color: #1A0B5B;
+}
+.Top-Categories h1{
+    font-size: xx-large;
+}
+.Top-Categories .top-category{
+  
+      width: calc((100% - 120px)/4);
+  
+
+    
+     
+   
+}
+.top-category img
+{
+
+      max-width: 180px;
+      max-height: 180px;
+      border-radius: 50%;
+
+   
+}
+.Top-Categories .category-details h3{
+    word-spacing: 7px;
+   
+}
+
+
+
+
+   .top-category .img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background: #F6F7FB;   /* خلفية بيضاء للصورة */
+
+   box-shadow: -5px 5px 0px rgb(160, 120, 228);
+}
+
+
+ .top-category .img button{
+    background-color: #08D15F;
+    color: white;
+    font-size: 10px;
+    padding: 9px 13px;
+    display: none;
+      cursor: pointer;
+  transition: all 0.6s ease-in-out;
+}
+.top-category:hover .img button{
+display: block;
+}
+
+
+
+
+@media screen and (max-width:1250px) {
+   
+.Top-Categories .top-category {
+    
+     flex: 1 1 45%; 
+    max-width: 45%;
+    align-items: center;
+    justify-content: center;
+}
+
+.Top-Categories .category-details{
+     align-items: center;
+}
+}
+
+
+@media screen and (max-width:1250px) {
+   
+.Top-Categories .top-category {
+    
+     flex: 1 1 45%; 
+    max-width: 45%;
+    align-items: center;
+    justify-content: center;
+}
+
+.Top-Categories .category-details{
+     align-items: center;
+       max-width: 150px;
+        text-align: center;
+}
+
+
+}
+   
+
+
+@media screen and (max-width:550px) {
+   
+.Top-Categories .top-category {
+    
+     flex: 1 1 100%; 
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.Top-Categories .category-details{
+     align-items: center;
+     text-align: center;
+     max-width: 150px;
+}
+}
 /* clients part */
 
 
